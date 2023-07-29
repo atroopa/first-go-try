@@ -1,10 +1,16 @@
 package main
 
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+
+	Jalaali "github.com/jalaali/go-jalaali"
+)
 
 func main (){
 
+	// variables
 	var annualSalary string
 	var bigNumber int
 
@@ -14,8 +20,12 @@ func main (){
 	bigNumber = 12
 	fmt.Println(bigNumber)
 
+	fmt.Println(Jalaali.ToJalaali(time.Now().Date()))
+
 }
 
+
+// #################### Function ##################
 func sayHello(name string){
 	fmt.Println("hello", name)
 }
