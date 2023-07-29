@@ -5,9 +5,14 @@ import "fmt"
 
 func main (){
 
-	fmt.Println("Hello go")
+	var annualSalary string
+	var bigNumber int
 
-	sayHello("omid")
+	annualSalary = "golnaz"
+	sayHello(annualSalary)
+
+	bigNumber = 12
+	fmt.Println(bigNumber)
 
 }
 
