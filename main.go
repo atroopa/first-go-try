@@ -8,7 +8,7 @@ import (
 func main (){
 
 	// variables
-	var annualSalary string = "golnaz"
+	
 	sayHello(annualSalary)
 }
 
